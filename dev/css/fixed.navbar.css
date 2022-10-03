@@ -9,11 +9,11 @@
 .navbar-fixed
 {
     position: fixed !important;
-    background: rgba(var(--theme-main_nav), 0.7);
+    background: rgba(var(--theme-main_nav), 1.0) !important;
 }
 
 .navbar-unfixed
 {
     position: relative !important;
-    background: rgba(var(--theme-main_nav), 1.0);
+    background: rgba(var(--theme-main_nav), 0.7) !important;
 }
