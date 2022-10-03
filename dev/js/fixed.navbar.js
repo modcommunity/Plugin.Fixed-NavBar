@@ -19,7 +19,6 @@
     {
 		initialize: function () 
         {
-            console.log("WHYYYYYYYYYYYYYYYY");
             // Scroll and reszie events.
             this.on(document, 'scroll', _, this.scroller);
 			this.on(document, 'resize', _, this.resize);
